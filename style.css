@@ -1,0 +1,30 @@
+.video {
+    width: 300px;
+    cursor: pointer;
+    margin: 20px;
+  }
+  
+  .thumbnail img{
+    width: 300px;
+  }
+  
+  .details {
+    display: flex;
+    margin-top: 5px;
+  }
+  
+  .profile {
+    margin-right: 12px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+  }
+  
+  .video-title p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
