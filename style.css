@@ -377,11 +377,11 @@ h3 {
 
 .trending-section {
   width: 100%;
-  max-width: 100%;
+  /* max-width: */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  /* overflow-x: scroll; */
+  overflow-x: scroll;
 }
 
 .reasons-section {
@@ -434,9 +434,8 @@ h3 {
   height: 18rem;
   gap: 44px;
   z-index: 1;
-  overflow-x: hidden;
-  scrollbar-width: none;
-  width: 100%;
+  overflow-x: scroll;
+  width: 100vw;
   max-width: 100%;
   position: relative;
   padding-left: 60px;
@@ -506,6 +505,9 @@ h3 {
   padding: 8px 24px;
 }
 
+/* Is there any way to create a card component and add multiple images at once? */
+/* My cards don't stretch to the end */
+
 .cardoverlay {
   display: flex;
   flex-direction: row;
@@ -521,7 +523,7 @@ h3 {
   justify-content: center;
   height: 100%;
   background-color: rgb(0, 0, 0);
-  padding-left: 1rem;
+  padding-left: 5px;
   padding-right: 100px;
   z-index: 2;
 }
@@ -751,4 +753,7 @@ h3 {
 
 .netflix-southafrica {
   font-size: 14px;
+}
+.add {
+font-size: 40px;
 }
